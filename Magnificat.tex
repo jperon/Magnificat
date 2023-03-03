@@ -1,0 +1,27 @@
+\documentclass[%
+fontsize=12%
+,a5paper%
+,DIV=15%
+]{scrartcl}
+
+\usepackage{libertine}
+\usepackage[autocompile]{gregoriotex}
+\usepackage[pass-fonts]{lyluatex}
+
+\title{Magníficat}
+\author{ton VI royal}
+\date{}
+
+\begin{document}
+
+\maketitle\thispagestyle{empty}
+
+\gregorioscore{gabc/Magnificat-6-royal-V1}
+
+\bigskip
+\noindent\lilypondfile{ly/Magnificat.ly}
+
+\bigskip
+{\gresetinitiallines{0}\gregorioscore{gabc/Magnificat-6-royal-V3}}
+
+\end{document}

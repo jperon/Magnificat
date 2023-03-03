@@ -1,4 +1,7 @@
+tmp-ly
+
 ## Core latex/pdflatex auxiliary files:
+*.glog
 *.aux
 *.lof
 *.log
