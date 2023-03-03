@@ -9,3 +9,7 @@ Une distribution TeXLive incluant LuaLaTeX et les paquets `gregoriotex` et `lylu
 ## Compilation
 
 `lualatex --shell-escape Magnificat`
+
+## Résultat
+
+![](Magnificat.avif)
